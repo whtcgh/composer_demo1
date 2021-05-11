@@ -6,4 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'wtComposerDemo1\\' => array($baseDir . '/wt_composer_demo1/src'),
 );

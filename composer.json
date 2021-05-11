@@ -1,2 +1,7 @@
 {
+    "autoload": {
+        "psr-4": {
+            "wtComposerDemo1\\":"wt_composer_demo1/src/"
+        }
+    }
 }
