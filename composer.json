@@ -1,5 +1,5 @@
 {
-    "name": "whtchg/composer_demo1",
+    "name": "whtcgh/composer_demo1",
     "description": "dome1",
     "type": "project",
     "require": {
@@ -17,3 +17,4 @@
     ],
     "minimum-stability": "dev"
 }
+
