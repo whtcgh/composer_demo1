@@ -1,6 +1,6 @@
 <?php
 
-namespace wt;
+namespace wtComposerDemo1;
 
 class WtComDemo1
 {
