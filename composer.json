@@ -1,7 +1,7 @@
 {
     "name": "whtchg/composer_demo1",
     "description": "dome1",
-    "type": "prokect",
+    "type": "project",
     "require": {
         "php": "5.6"
     },
