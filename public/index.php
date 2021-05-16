@@ -1,10 +1,15 @@
 <?php
 
-// namespace wt;
-use wtComposerDemo1\WtComDemo1;
-
 include "../vendor/autoload.php";
-$WtComDemo1 = new WtComDemo1;
-$WtComDemo1->index();
+// include "../vendor/wtdemo1/Comentsrc.php";
 
+use Wtdemo1\Coment;
+use Wtdemo2\Comentsrc;
+
+$Comentsrc = new Comentsrc;
+$Comentsrc->comentIndex();
+
+
+$Coment = new Coment;
+$Coment->comentIndex();
 

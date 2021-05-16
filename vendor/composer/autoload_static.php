@@ -4,27 +4,32 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitdf13cdcbfd9c1a1b5a0f838846499de1
+class ComposerStaticInit0772cd14b96db7f0dcbbf3fff1eb81c7
 {
     public static $prefixLengthsPsr4 = array (
-        'w' => 
+        'W' => 
         array (
-            'wtComposerDemo1\\' => 16,
+            'Wtdemo2\\' => 8,
+            'Wtdemo1\\' => 8,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'wtComposerDemo1\\' => 
+        'Wtdemo2\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/wt_composer_demo1/src',
+            0 => __DIR__ . '/..' . '/wtdemo1',
+        ),
+        'Wtdemo1\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/wtdemo1/src',
         ),
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitdf13cdcbfd9c1a1b5a0f838846499de1::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitdf13cdcbfd9c1a1b5a0f838846499de1::$prefixDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit0772cd14b96db7f0dcbbf3fff1eb81c7::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit0772cd14b96db7f0dcbbf3fff1eb81c7::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }

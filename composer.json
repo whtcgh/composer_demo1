@@ -1,7 +1,20 @@
 {
+    "name": "administrator/demo",
+    "authors": [
+        {
+            "name": "wt",
+            "email": "2359092648@qq.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
-            "wtComposerDemo1\\":"wt_composer_demo1/src/"
+            "Wtdemo1\\":"vendor/wtdemo1/src",
+            "Wtdemo2\\":"vendor/wtdemo1"
         }
-    }
+    },
+    "require": {}
 }
+
+
+
+
