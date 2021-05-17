@@ -10,5 +10,11 @@
         }
     ],
     "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Wtdemo1\\":"vendor/wtdemo1/src",
+            "Wtdemo2\\":"vendor/wtdemo1"
+        }
+    },
     "require": {}
 }
